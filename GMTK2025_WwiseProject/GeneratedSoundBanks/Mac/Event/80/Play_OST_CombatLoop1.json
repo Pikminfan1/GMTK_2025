@@ -1,0 +1,46 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "800528042",
+    "Type": "Event",
+    "GUID": "{3CBB7353-CB02-413F-B386-0DB156251CC8}",
+    "Language": "SFX",
+    "Hash": "{6C3230A4-BEA6-9F89-18D4-E19133065474}",
+    "ObjectPath": "Play_OST_CombatLoop1",
+    "ShortName": "Play_OST_CombatLoop1",
+    "Path": "Event/80/Play_OST_CombatLoop1.bnk",
+    "Media": [
+     {
+      "Id": "966317919",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "OST_MPlanet_CombatLoopFull_NF_DrumsB_128_Amin.wav",
+      "Path": "Media/96/966317919.wem",
+      "CachePath": "4A/{4AB4502E-A8B1-7C94-283B-0AED62AF2D03}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "800528042",
+      "Name": "Play_OST_CombatLoop1",
+      "ObjectPath": "\\Events\\Default Work Unit\\OST\\Play_OST_CombatLoop1",
+      "GUID": "{3CBB7353-CB02-413F-B386-0DB156251CC8}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "966317919"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{9B324478-6897-A347-D60D-849CD463E25D}"
+ }
+}

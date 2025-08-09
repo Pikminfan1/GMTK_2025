@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3310819157	Play_OST_StartScreen			\Default Work Unit\OST\Play_OST_StartScreen	
+

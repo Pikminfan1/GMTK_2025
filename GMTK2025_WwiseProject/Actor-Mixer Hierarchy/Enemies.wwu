@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3AEA06BE-C76E-4D21-B0E7-318100625134}" SchemaVersion="123">
+	<AudioObjects>
+		<WorkUnit Name="Enemies" ID="{3AEA06BE-C76E-4D21-B0E7-318100625134}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="Enemy" ID="{64FA6355-59FD-45FA-A39F-0D92CE28EF4D}" ShortID="910782653">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="PlayerThruster" ID="{39EC9E91-4C50-44A0-97DA-AFCD26CC4450}" WorkUnitID="{FC168AFC-D983-43A1-BDCD-400554B2EBDD}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F39A1741-8DB7-46AC-A142-982C9CBF40A1}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83CBC1BE-8734-4CAD-B3D4-57FD31BF0D43}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="enemy_plr_proj_hit" ID="{5E6C4A9E-61E8-4638-8CB0-E444709CE192}" ShortID="506148724">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{CE7E03F1-BE95-4ACC-BDCF-D1FEE0021D3E}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="200"/>
+													<Property Name="Min" Type="Real64" Value="-200"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-1</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F39A1741-8DB7-46AC-A142-982C9CBF40A1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83CBC1BE-8734-4CAD-B3D4-57FD31BF0D43}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="atma_player_ship_dmg_hit_draft2" ID="{C34D42B7-D701-4AA6-A23C-A8307D740760}" ShortID="639962128">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F39A1741-8DB7-46AC-A142-982C9CBF40A1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83CBC1BE-8734-4CAD-B3D4-57FD31BF0D43}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="atma_player_ship_dmg_hit_draft2" ID="{B214DE58-8EC7-4E77-9702-86810241A57A}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0432690934672189"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.208579219790696"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.112055857440746"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.777734192089893"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>atma_player_ship_dmg_hit_draft2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="382149285"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="atma_player_ship_dmg_hit_draft2" ID="{B214DE58-8EC7-4E77-9702-86810241A57A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="atma_player_ship_dmg_hit_draft3" ID="{98B8AE97-6102-4109-BA51-9A087A05CAA7}" ShortID="761840836">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F39A1741-8DB7-46AC-A142-982C9CBF40A1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83CBC1BE-8734-4CAD-B3D4-57FD31BF0D43}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="atma_player_ship_dmg_hit_draft3" ID="{7FA2AB06-3897-4CC9-913C-8C92528B6636}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0367282118116106"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.159477761813572"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>atma_player_ship_dmg_hit_draft3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1056704886"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="atma_player_ship_dmg_hit_draft3" ID="{7FA2AB06-3897-4CC9-913C-8C92528B6636}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="atma_player_ship_dmg_hit_draft4" ID="{611A153A-A5F6-4EA2-89B1-FA98BBDE596C}" ShortID="267086213">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F39A1741-8DB7-46AC-A142-982C9CBF40A1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83CBC1BE-8734-4CAD-B3D4-57FD31BF0D43}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="atma_player_ship_dmg_hit_draft4" ID="{D197AFF5-82DC-4813-A7A1-7050C9CA3CAD}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0915623344179755"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.227299479300764"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>atma_player_ship_dmg_hit_draft4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="54230769"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="atma_player_ship_dmg_hit_draft4" ID="{D197AFF5-82DC-4813-A7A1-7050C9CA3CAD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="enemy_death_explosion" ID="{34ACD90D-DDA6-4FAE-80D0-4456B16F5822}" ShortID="72363653">
+							<PropertyList>
+								<Property Name="MakeUpGain" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{3B818FAF-3260-485D-85A9-D137EFD1221D}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="200"/>
+													<Property Name="Min" Type="Real64" Value="-200"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F39A1741-8DB7-46AC-A142-982C9CBF40A1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83CBC1BE-8734-4CAD-B3D4-57FD31BF0D43}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="MainLevelReverb" ID="{624B0DF6-D7FB-4242-9593-D27648A466BA}" WorkUnitID="{83CBC1BE-8734-4CAD-B3D4-57FD31BF0D43}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="gmtk_enemy_death_explosion_01" ID="{9FB9946B-B1F1-4BC5-BB23-DEA429CC732B}" ShortID="312101239">
+									<PropertyList>
+										<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F39A1741-8DB7-46AC-A142-982C9CBF40A1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83CBC1BE-8734-4CAD-B3D4-57FD31BF0D43}"/>
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="MainLevelReverb" ID="{624B0DF6-D7FB-4242-9593-D27648A466BA}" WorkUnitID="{83CBC1BE-8734-4CAD-B3D4-57FD31BF0D43}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="gmtk_enemy_death_explosion_01" ID="{87CA7B3A-024D-4F0B-A6B1-3D807E7F517F}">
+											<Language>SFX</Language>
+											<AudioFile>gmtk_enemy_death_explosion_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="16119968"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="gmtk_enemy_death_explosion_01" ID="{87CA7B3A-024D-4F0B-A6B1-3D807E7F517F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="gmtk_enemy_death_explosion_02" ID="{DB4EA5FF-2C48-450A-85D7-F904C4780020}" ShortID="531013661">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F39A1741-8DB7-46AC-A142-982C9CBF40A1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83CBC1BE-8734-4CAD-B3D4-57FD31BF0D43}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="gmtk_enemy_death_explosion_02" ID="{234101E0-283D-4DEB-99DA-A975F536A8B3}">
+											<Language>SFX</Language>
+											<AudioFile>gmtk_enemy_death_explosion_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="80960994"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="gmtk_enemy_death_explosion_02" ID="{234101E0-283D-4DEB-99DA-A975F536A8B3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="gmtk_enemy_death_explosion_03" ID="{D951FAB6-05BE-437E-AE0E-39D76910BB0A}" ShortID="620365599">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F39A1741-8DB7-46AC-A142-982C9CBF40A1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83CBC1BE-8734-4CAD-B3D4-57FD31BF0D43}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="gmtk_enemy_death_explosion_03" ID="{3E059DFF-4AA0-4D82-9EA7-0260677ACCD0}">
+											<Language>SFX</Language>
+											<AudioFile>gmtk_enemy_death_explosion_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="271049803"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="gmtk_enemy_death_explosion_03" ID="{3E059DFF-4AA0-4D82-9EA7-0260677ACCD0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

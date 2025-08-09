@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{22B47AE5-5512-46D5-B1B8-F661224CBA2A}" SchemaVersion="123">
+	<AudioObjects>
+		<WorkUnit Name="Player" ID="{22B47AE5-5512-46D5-B1B8-F661224CBA2A}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="Player" ID="{73F168F2-9EC9-460B-BC28-AD97AEC79EDE}" ShortID="891202191">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+						<Property Name="MakeUpGain" Type="Real64">
+							<ValueList>
+								<Value>4</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="PlayerThruster" ID="{39EC9E91-4C50-44A0-97DA-AFCD26CC4450}" WorkUnitID="{FC168AFC-D983-43A1-BDCD-400554B2EBDD}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F39A1741-8DB7-46AC-A142-982C9CBF40A1}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83CBC1BE-8734-4CAD-B3D4-57FD31BF0D43}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<BlendContainer Name="plr_thruster_loop" ID="{F28B623C-196F-4C71-B946-41034F25C1D5}" ShortID="708477921">
+							<PropertyList>
+								<Property Name="BlendBehavior" Type="int16" Value="1"/>
+								<Property Name="MakeUpGain" Type="Real64">
+									<ValueList>
+										<Value>12</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverrideEffect" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F39A1741-8DB7-46AC-A142-982C9CBF40A1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83CBC1BE-8734-4CAD-B3D4-57FD31BF0D43}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="engine_int_loop_idle" ID="{29A3E643-1A6B-4804-9A74-812C9F78E8A0}" ShortID="851707521">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F39A1741-8DB7-46AC-A142-982C9CBF40A1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83CBC1BE-8734-4CAD-B3D4-57FD31BF0D43}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="engine_int_loop_idle" ID="{A267E6E4-09CD-4576-BB7D-35A330BFD0D2}">
+											<Language>SFX</Language>
+											<AudioFile>engine_int_loop_idle.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="446073037"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="engine_int_loop_idle" ID="{A267E6E4-09CD-4576-BB7D-35A330BFD0D2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="gmtk25_plr_locomtoion_draft2_loop" ID="{4F3FC114-33BB-446E-8A47-930B0C55D3A9}" ShortID="795629567">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F39A1741-8DB7-46AC-A142-982C9CBF40A1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83CBC1BE-8734-4CAD-B3D4-57FD31BF0D43}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="gmtk25_plr_locomtoion_draft2_loop" ID="{891F4B72-BDFB-4BFE-BD49-89417096EFB2}">
+											<Language>SFX</Language>
+											<AudioFile>gmtk25_plr_locomtoion_draft2_loop.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="581783353"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="gmtk25_plr_locomtoion_draft2_loop" ID="{891F4B72-BDFB-4BFE-BD49-89417096EFB2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{E76C4EF9-F05F-4102-BAB6-4E1EA9FBB3D2}" ShortID="896038970">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+														<ObjectRef Name="Boost_3dB_10KHz" ID="{59632554-9396-4E15-889E-7A2F5458DEC3}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+							<BlendTrackList>
+								<BlendTrack Name="MoveSpeed" ID="{36E6891E-39CF-4C4E-8D4F-A387936DC085}" ShortID="362852832">
+									<PropertyList>
+										<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="LayerCrossFadeControlInput">
+											<ObjectRef Name="MoveSpeed" ID="{12803E96-5812-4CFE-9AAE-23428DD516AA}" WorkUnitID="{18773730-C228-4E2D-81EC-7C97920A2947}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists>
+										<ObjectList Name="RTPC">
+											<Reference>
+												<Local>
+													<RTPC Name="" ID="{F6D281AA-EC66-4AA9-B4B7-01B66B29B40F}" ShortID="957208062">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="Pitch"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="MoveSpeed" ID="{12803E96-5812-4CFE-9AAE-23428DD516AA}" WorkUnitID="{18773730-C228-4E2D-81EC-7C97920A2947}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{9D9A1CCE-6EFD-4E80-BE7D-A099FAA2F260}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="65537"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>611.98897</XPos>
+																				<YPos>678</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>3000</XPos>
+																				<YPos>1189</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<RTPC Name="" ID="{742A9012-5527-4093-A029-05BBEDBC3326}" ShortID="434192309">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="Volume"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="MoveSpeed" ID="{12803E96-5812-4CFE-9AAE-23428DD516AA}" WorkUnitID="{18773730-C228-4E2D-81EC-7C97920A2947}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{9420FDFB-634D-47E6-8A2E-A5050FEA0AF3}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-11.55583</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>3000</XPos>
+																				<YPos>-4.81098</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+									<BlendTrackAssocList>
+										<BlendTrackAssoc>
+											<ItemRef Name="gmtk25_plr_locomtoion_draft2_loop" ID="{4F3FC114-33BB-446E-8A47-930B0C55D3A9}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>0</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>3000</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+									</BlendTrackAssocList>
+								</BlendTrack>
+								<BlendTrack Name="SomeRumble" ID="{99E374A9-3330-4ED1-835D-F9C1ECA5DDB8}" ShortID="200878801">
+									<PropertyList>
+										<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="LayerCrossFadeControlInput">
+											<ObjectRef Name="MoveSpeed" ID="{12803E96-5812-4CFE-9AAE-23428DD516AA}" WorkUnitID="{18773730-C228-4E2D-81EC-7C97920A2947}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists>
+										<ObjectList Name="RTPC">
+											<Reference>
+												<Local>
+													<RTPC Name="" ID="{6B531BCB-2A2A-46D6-9B37-2239ABC29A2A}" ShortID="931404678">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="Pitch"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="MoveSpeed" ID="{12803E96-5812-4CFE-9AAE-23428DD516AA}" WorkUnitID="{18773730-C228-4E2D-81EC-7C97920A2947}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{8EEA21FE-0C3F-40BE-9C2B-5DED00DF72A3}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="65537"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>3000</XPos>
+																				<YPos>551</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<RTPC Name="" ID="{F632DBF1-4F1D-4AEC-A1E5-5A90B99307A2}" ShortID="922132816">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="Volume"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="MoveSpeed" ID="{12803E96-5812-4CFE-9AAE-23428DD516AA}" WorkUnitID="{18773730-C228-4E2D-81EC-7C97920A2947}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{ADD7309D-6FDE-47B8-A2BA-68FC32F8F36A}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-5.34843</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>639.24051</XPos>
+																				<YPos>0.71943</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>3000</XPos>
+																				<YPos>0.72859</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+									<BlendTrackAssocList>
+										<BlendTrackAssoc>
+											<ItemRef Name="engine_int_loop_idle" ID="{29A3E643-1A6B-4804-9A74-812C9F78E8A0}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>0</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>3000</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+									</BlendTrackAssocList>
+								</BlendTrack>
+							</BlendTrackList>
+						</BlendContainer>
+						<RandomSequenceContainer Name="plr_dash_thrust" ID="{7BB26229-08B7-4EB0-8850-8F13E6053859}" ShortID="151108264">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F39A1741-8DB7-46AC-A142-982C9CBF40A1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83CBC1BE-8734-4CAD-B3D4-57FD31BF0D43}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Designed, Impact, Weird Junk Impact, Heavy, Very Short SND7082" ID="{AEA70694-8CC5-421E-B4C3-41006D40826B}" ShortID="803027617">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F39A1741-8DB7-46AC-A142-982C9CBF40A1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83CBC1BE-8734-4CAD-B3D4-57FD31BF0D43}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Designed, Impact, Weird Junk Impact, Heavy, Very Short SND7082" ID="{EF0E3708-C9DB-445D-82DA-DA2504871DB4}">
+											<Language>SFX</Language>
+											<AudioFile>Designed, Impact, Weird Junk Impact, Heavy, Very Short SND7082.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="104794710"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Designed, Impact, Weird Junk Impact, Heavy, Very Short SND7082" ID="{EF0E3708-C9DB-445D-82DA-DA2504871DB4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="gmtk_plr_doidge_thrusters_boost_oneshot-001" ID="{55F74C00-80AC-4191-8DEC-4165C86D1040}" ShortID="581069984">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F39A1741-8DB7-46AC-A142-982C9CBF40A1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83CBC1BE-8734-4CAD-B3D4-57FD31BF0D43}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="gmtk_plr_doidge_thrusters_boost_oneshot-001" ID="{1C62916E-EA97-405C-9B13-0D40FC06B8E2}">
+											<Language>SFX</Language>
+											<AudioFile>gmtk_plr_doidge_thrusters_boost_oneshot-001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="623396599"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="gmtk_plr_doidge_thrusters_boost_oneshot-001" ID="{1C62916E-EA97-405C-9B13-0D40FC06B8E2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="gmtk_plr_doidge_thrusters_boost_oneshot-002" ID="{A95E826C-6239-49F2-8BD6-599003EECB7E}" ShortID="571711215">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F39A1741-8DB7-46AC-A142-982C9CBF40A1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83CBC1BE-8734-4CAD-B3D4-57FD31BF0D43}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="gmtk_plr_doidge_thrusters_boost_oneshot-002" ID="{F2404409-124D-48E2-B63E-795EAA8E7ED3}">
+											<Language>SFX</Language>
+											<AudioFile>gmtk_plr_doidge_thrusters_boost_oneshot-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="224476645"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="gmtk_plr_doidge_thrusters_boost_oneshot-002" ID="{F2404409-124D-48E2-B63E-795EAA8E7ED3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="gmtk_plr_doidge_thrusters_boost_oneshot-003" ID="{B167709C-674C-4583-902B-587956856797}" ShortID="695764478">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F39A1741-8DB7-46AC-A142-982C9CBF40A1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83CBC1BE-8734-4CAD-B3D4-57FD31BF0D43}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="gmtk_plr_doidge_thrusters_boost_oneshot-003" ID="{28116151-421E-4267-9858-23A2E6232501}">
+											<Language>SFX</Language>
+											<AudioFile>gmtk_plr_doidge_thrusters_boost_oneshot-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="225205609"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="gmtk_plr_doidge_thrusters_boost_oneshot-003" ID="{28116151-421E-4267-9858-23A2E6232501}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="gmtk_plr_doidge_thrusters_boost_oneshot-004" ID="{1C892DA6-27C0-41C7-BFC1-9EC66108C89C}" ShortID="739092911">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F39A1741-8DB7-46AC-A142-982C9CBF40A1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83CBC1BE-8734-4CAD-B3D4-57FD31BF0D43}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="gmtk_plr_doidge_thrusters_boost_oneshot-004" ID="{77C19C79-CFC8-4225-B7A5-66FFA629AECF}">
+											<Language>SFX</Language>
+											<AudioFile>gmtk_plr_doidge_thrusters_boost_oneshot-004.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="530250479"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="gmtk_plr_doidge_thrusters_boost_oneshot-004" ID="{77C19C79-CFC8-4225-B7A5-66FFA629AECF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="gmtk_plr_doidge_thrusters_boost_oneshot-005" ID="{6369FAB4-C124-4CD8-BF2A-6623AD0A0ED5}" ShortID="59517227">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F39A1741-8DB7-46AC-A142-982C9CBF40A1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83CBC1BE-8734-4CAD-B3D4-57FD31BF0D43}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="gmtk_plr_doidge_thrusters_boost_oneshot-005" ID="{6CF65DC7-0FA8-453E-A0BF-A4E6D2732D45}">
+											<Language>SFX</Language>
+											<AudioFile>gmtk_plr_doidge_thrusters_boost_oneshot-005.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="348997501"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="gmtk_plr_doidge_thrusters_boost_oneshot-005" ID="{6CF65DC7-0FA8-453E-A0BF-A4E6D2732D45}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<Sound Name="iph_dash_draft5" ID="{B637FB6D-B5ED-4CC9-917E-19FEC543B9B2}" ShortID="775972333">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F39A1741-8DB7-46AC-A142-982C9CBF40A1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83CBC1BE-8734-4CAD-B3D4-57FD31BF0D43}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="iph_dash_draft5" ID="{A842A2C5-3648-4F26-B1C7-18C84D262262}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0656033108057069"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.137900836999751"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>iph_dash_draft5.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1019933209"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="iph_dash_draft5" ID="{A842A2C5-3648-4F26-B1C7-18C84D262262}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

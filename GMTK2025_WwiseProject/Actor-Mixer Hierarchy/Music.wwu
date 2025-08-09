@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{AB00411B-0292-45DC-9596-E7362E3F051C}" SchemaVersion="123">
+	<AudioObjects>
+		<WorkUnit Name="Music" ID="{AB00411B-0292-45DC-9596-E7362E3F051C}" PersistMode="Standalone">
+			<ChildrenList>
+				<RandomSequenceContainer Name="OST_Music" ID="{CD51E627-CEE1-4B74-B058-4E8516091942}" ShortID="676469427">
+					<PropertyList>
+						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-11</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F39A1741-8DB7-46AC-A142-982C9CBF40A1}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83CBC1BE-8734-4CAD-B3D4-57FD31BF0D43}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="OST_AtmosphericLoop" ID="{C6AA2296-8B39-4701-9562-EE235E620595}" ShortID="175889641">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F39A1741-8DB7-46AC-A142-982C9CBF40A1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83CBC1BE-8734-4CAD-B3D4-57FD31BF0D43}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="OST_AtmosphericLoop" ID="{8DE2D48B-712E-4E3B-BF49-E1228721E9C3}">
+									<Language>SFX</Language>
+									<AudioFile>OST_AtmosphericLoop.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="375761751"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="OST_AtmosphericLoop" ID="{8DE2D48B-712E-4E3B-BF49-E1228721E9C3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="OST_CombatLoop0" ID="{8F24B418-6B99-43AC-9204-8EF0D34CA3C4}" ShortID="906906080">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F39A1741-8DB7-46AC-A142-982C9CBF40A1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83CBC1BE-8734-4CAD-B3D4-57FD31BF0D43}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="OST_CombatLoop0_NormalIntro_NoLeads" ID="{700ACED5-2D4B-4829-9FF6-61519F36C609}">
+									<Language>SFX</Language>
+									<AudioFile>OST_CombatLoop0_NormalIntro_NoLeads.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="33870538"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="OST_CombatLoop0_NormalIntro_NoLeads" ID="{700ACED5-2D4B-4829-9FF6-61519F36C609}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="OST_CombatLoop1" ID="{65315D3A-5208-4566-BA78-F30D8EEDD699}" ShortID="965910703">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F39A1741-8DB7-46AC-A142-982C9CBF40A1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83CBC1BE-8734-4CAD-B3D4-57FD31BF0D43}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="OST_MPlanet_CombatLoopFull_NF_DrumsB_128_Amin" ID="{C1EF781F-ECC3-4FB4-B014-11D568025D1B}">
+									<Language>SFX</Language>
+									<AudioFile>OST_MPlanet_CombatLoopFull_NF_DrumsB_128_Amin.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="966317919"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="OST_MPlanet_CombatLoopFull_NF_DrumsB_128_Amin" ID="{C1EF781F-ECC3-4FB4-B014-11D568025D1B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="OST_CombatLoop2" ID="{BAE9D65F-9DEB-4FB0-B1FE-6C6AC31A1DD9}" ShortID="1027625308">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F39A1741-8DB7-46AC-A142-982C9CBF40A1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83CBC1BE-8734-4CAD-B3D4-57FD31BF0D43}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="OST_CombatLoopA3_MediasRes_V2" ID="{C57F9CE9-EE82-4E70-BB8D-EA994D9B1D05}">
+									<Language>SFX</Language>
+									<AudioFile>OST_CombatLoopA3_MediasRes_V2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="646075123"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="OST_CombatLoopA3_MediasRes_V2" ID="{C57F9CE9-EE82-4E70-BB8D-EA994D9B1D05}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="OST_StartScreen" ID="{F3E56581-650D-43AB-B854-98AC53042C94}" ShortID="542725760">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F39A1741-8DB7-46AC-A142-982C9CBF40A1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83CBC1BE-8734-4CAD-B3D4-57FD31BF0D43}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="GMTK_MainTheme_StartingScreen_Mix2_105_FF" ID="{74D91DCA-7E66-4D05-9D6A-C598CC519254}">
+									<Language>SFX</Language>
+									<AudioFile>GMTK_MainTheme_StartingScreen_Mix2_105_FF.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="842999877"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="GMTK_MainTheme_StartingScreen_Mix2_105_FF" ID="{74D91DCA-7E66-4D05-9D6A-C598CC519254}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="OST_AtmosphericLoopIntro" ID="{1EA9EAB2-C8A3-4E86-A9DF-2C2BD4F9C9F2}" ShortID="18049014">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-1</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F39A1741-8DB7-46AC-A142-982C9CBF40A1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83CBC1BE-8734-4CAD-B3D4-57FD31BF0D43}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="OST_AtmosphericLoop0" ID="{4118E652-6EBD-4922-A9B0-C1197CE40CF4}">
+									<Language>SFX</Language>
+									<AudioFile>OST_AtmosphericLoop0.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="254797720"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="OST_AtmosphericLoop0" ID="{4118E652-6EBD-4922-A9B0-C1197CE40CF4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="OST_CombatLoopIntro" ID="{5455DA6C-F82C-445B-A822-D55499BD8674}" ShortID="31535107">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F39A1741-8DB7-46AC-A142-982C9CBF40A1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83CBC1BE-8734-4CAD-B3D4-57FD31BF0D43}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="OST_TutorialLoop" ID="{4E069B5B-8988-4937-8A04-1017E0F385CF}">
+									<Language>SFX</Language>
+									<AudioFile>OST_TutorialLoop.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="89708282"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="OST_TutorialLoop" ID="{4E069B5B-8988-4937-8A04-1017E0F385CF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

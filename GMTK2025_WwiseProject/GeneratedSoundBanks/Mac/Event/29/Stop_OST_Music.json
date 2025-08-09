@@ -1,0 +1,33 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2995447774",
+    "Type": "Event",
+    "GUID": "{BA9B3668-C038-4CD3-AEF3-4B1A16A84335}",
+    "Language": "SFX",
+    "Hash": "{9D45B918-298F-BEE9-99C1-633CB4DDCB4B}",
+    "ObjectPath": "Stop_OST_Music",
+    "ShortName": "Stop_OST_Music",
+    "Path": "Event/29/Stop_OST_Music.bnk",
+    "Events": [
+     {
+      "Id": "2995447774",
+      "Name": "Stop_OST_Music",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_OST_Music",
+      "GUID": "{BA9B3668-C038-4CD3-AEF3-4B1A16A84335}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{2918C8E9-E1DF-7B78-75C5-371F41BF57B8}"
+ }
+}

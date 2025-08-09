@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "4272871288",
+    "Type": "Bus",
+    "GUID": "{624B0DF6-D7FB-4242-9593-D27648A466BA}",
+    "Language": "SFX",
+    "Hash": "{F4427AEF-B96E-657F-5CD9-A14B4AFC5220}",
+    "ObjectPath": "MainLevelReverb",
+    "ShortName": "MainLevelReverb",
+    "Path": "Bus/42/MainLevelReverb.bnk",
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "1990128658",
+       "Name": "Room_Medium",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Rooms\\Room_Medium",
+       "GUID": "{F5C06EC1-E4A4-4332-A7D3-A89E2986B74F}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ]
+    },
+    "AuxBusses": [
+     {
+      "Id": "4272871288",
+      "Name": "MainLevelReverb",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\ReverbZones\\MainLevelReverb",
+      "GUID": "{624B0DF6-D7FB-4242-9593-D27648A466BA}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "1990128658"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  ],
+  "FileHash": "{DD65EF8B-9072-6827-216D-BEBA0F675F52}"
+ }
+}

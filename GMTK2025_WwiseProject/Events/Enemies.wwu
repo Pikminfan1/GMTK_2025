@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0A87D9D8-E999-42E1-AE46-147B7A11FBA7}" SchemaVersion="123">
+	<Events>
+		<WorkUnit Name="Enemies" ID="{0A87D9D8-E999-42E1-AE46-147B7A11FBA7}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="enemy_hit_proj" ID="{6C1CA0B1-89D3-4595-893F-57647C334CD4}">
+					<ChildrenList>
+						<Action Name="" ID="{0B6F64E4-0581-406F-B76B-199FAD7554B7}" ShortID="375441136">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="enemy_plr_proj_hit" ID="{5E6C4A9E-61E8-4638-8CB0-E444709CE192}" WorkUnitID="{3AEA06BE-C76E-4D21-B0E7-318100625134}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="enemy_death_explosion" ID="{06B931D5-92DD-43D6-8879-1EAAFDE66E2F}">
+					<ChildrenList>
+						<Action Name="" ID="{B99AAFAA-449B-476B-8606-2A19215BA334}" ShortID="752990445">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="enemy_death_explosion" ID="{34ACD90D-DDA6-4FAE-80D0-4456B16F5822}" WorkUnitID="{3AEA06BE-C76E-4D21-B0E7-318100625134}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

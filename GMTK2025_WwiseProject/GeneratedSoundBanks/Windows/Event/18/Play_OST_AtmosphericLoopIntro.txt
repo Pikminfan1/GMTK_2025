@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1888867790	Play_OST_AtmosphericLoopIntro			\Default Work Unit\OST\Play_OST_AtmosphericLoopIntro	
+

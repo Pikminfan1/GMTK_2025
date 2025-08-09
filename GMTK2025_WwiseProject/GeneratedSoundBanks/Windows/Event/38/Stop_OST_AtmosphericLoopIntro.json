@@ -1,0 +1,33 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3891042452",
+    "Type": "Event",
+    "GUID": "{D86618A2-FB49-4E1C-AA5E-F4C4BB637091}",
+    "Language": "SFX",
+    "Hash": "{AF759B86-0338-593D-41A1-2B46310F2462}",
+    "ObjectPath": "Stop_OST_AtmosphericLoopIntro",
+    "ShortName": "Stop_OST_AtmosphericLoopIntro",
+    "Path": "Event/38/Stop_OST_AtmosphericLoopIntro.bnk",
+    "Events": [
+     {
+      "Id": "3891042452",
+      "Name": "Stop_OST_AtmosphericLoopIntro",
+      "ObjectPath": "\\Events\\Default Work Unit\\OST\\Stop_OST_AtmosphericLoopIntro",
+      "GUID": "{D86618A2-FB49-4E1C-AA5E-F4C4BB637091}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{708A1672-A5EE-F986-C963-B3FBAB8FAA54}"
+ }
+}

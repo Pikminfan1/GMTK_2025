@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{95D6C9EC-BBDC-4E66-9ECE-5C38AC93F749}" SchemaVersion="123">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{95D6C9EC-BBDC-4E66-9ECE-5C38AC93F749}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="OST" ID="{93900922-ABE5-4A8E-B1E0-A15D7098FB7E}" ShortID="266342770">
+					<ChildrenList>
+						<Event Name="Play_OST_CombatLoop0" ID="{F90D8F66-0CDC-4E91-9A33-2C3B2B8E23C9}">
+							<ChildrenList>
+								<Action Name="" ID="{C1091A43-60AA-49BB-BAA2-B48D577BE1FB}" ShortID="189727682">
+									<PropertyList>
+										<Property Name="FadeInCurve" Type="int16" Value="7"/>
+										<Property Name="FadeTime" Type="Real64" Value="4"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="OST_CombatLoop0" ID="{8F24B418-6B99-43AC-9204-8EF0D34CA3C4}" WorkUnitID="{AB00411B-0292-45DC-9596-E7362E3F051C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_OST_AtmosphericLoop" ID="{E50040DF-2F1F-4432-97DE-7D83391B53E6}">
+							<ChildrenList>
+								<Action Name="" ID="{50A01C81-AB7E-4FDA-85E3-34555576BAE6}" ShortID="32650338">
+									<PropertyList>
+										<Property Name="FadeInCurve" Type="int16" Value="7"/>
+										<Property Name="FadeTime" Type="Real64" Value="4"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="OST_AtmosphericLoop" ID="{C6AA2296-8B39-4701-9562-EE235E620595}" WorkUnitID="{AB00411B-0292-45DC-9596-E7362E3F051C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_OST_AtmosphericLoop" ID="{2977C204-CA56-44C7-B47D-35B19628E292}">
+							<ChildrenList>
+								<Action Name="" ID="{6618747C-BD97-4502-8B8E-FB50F0392A80}" ShortID="382513579">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Delay" Type="Real64" Value="3"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="7"/>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="OST_AtmosphericLoop" ID="{C6AA2296-8B39-4701-9562-EE235E620595}" WorkUnitID="{AB00411B-0292-45DC-9596-E7362E3F051C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_OST_CombatLoop1" ID="{3CBB7353-CB02-413F-B386-0DB156251CC8}">
+							<ChildrenList>
+								<Action Name="" ID="{E4E10FE3-07E7-4CBC-9AB6-8EDF197B010A}" ShortID="563913642">
+									<PropertyList>
+										<Property Name="FadeInCurve" Type="int16" Value="7"/>
+										<Property Name="FadeTime" Type="Real64" Value="4"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="OST_CombatLoop1" ID="{65315D3A-5208-4566-BA78-F30D8EEDD699}" WorkUnitID="{AB00411B-0292-45DC-9596-E7362E3F051C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_OST_CombatLoop2" ID="{F4799550-6C1C-4C0A-A905-B57678344C21}">
+							<ChildrenList>
+								<Action Name="" ID="{3C7924D1-BEB8-4F6C-B2D4-FCE5BA03E3BF}" ShortID="676321866">
+									<PropertyList>
+										<Property Name="FadeInCurve" Type="int16" Value="7"/>
+										<Property Name="FadeTime" Type="Real64" Value="4"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="OST_CombatLoop2" ID="{BAE9D65F-9DEB-4FB0-B1FE-6C6AC31A1DD9}" WorkUnitID="{AB00411B-0292-45DC-9596-E7362E3F051C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_OST_CombatLoop0" ID="{A6745A2E-E40C-4385-9DCC-133EFD429001}">
+							<ChildrenList>
+								<Action Name="" ID="{79E9F129-F236-437C-8C63-360784CDE14E}" ShortID="573053005">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Delay" Type="Real64" Value="3.5"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="7"/>
+										<Property Name="FadeTime" Type="Real64" Value="3.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="OST_CombatLoop0" ID="{8F24B418-6B99-43AC-9204-8EF0D34CA3C4}" WorkUnitID="{AB00411B-0292-45DC-9596-E7362E3F051C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_OST_CombatLoop1" ID="{D8AC9F16-63B9-4801-944E-8D291B43854C}">
+							<ChildrenList>
+								<Action Name="" ID="{0D4BDBAB-F7B0-47F9-8187-6F47118E8120}" ShortID="159009722">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Delay" Type="Real64" Value="3.5"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="7"/>
+										<Property Name="FadeTime" Type="Real64" Value="3.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="OST_CombatLoop1" ID="{65315D3A-5208-4566-BA78-F30D8EEDD699}" WorkUnitID="{AB00411B-0292-45DC-9596-E7362E3F051C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_OST_CombatLoop2" ID="{772BC900-2ACC-417C-9149-FBB93238C12D}">
+							<ChildrenList>
+								<Action Name="" ID="{7CE12885-B4E0-47E1-BC1E-9BFA2BE5573E}" ShortID="890994522">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Delay" Type="Real64" Value="3.5"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="7"/>
+										<Property Name="FadeTime" Type="Real64" Value="3.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="OST_CombatLoop2" ID="{BAE9D65F-9DEB-4FB0-B1FE-6C6AC31A1DD9}" WorkUnitID="{AB00411B-0292-45DC-9596-E7362E3F051C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_OST_AtmosphericLoopIntro" ID="{351363FF-13AF-4E4A-9300-D7A27F9BC14B}">
+							<ChildrenList>
+								<Action Name="" ID="{53099F67-8D3C-4EA6-9BE4-E2F74E96E272}" ShortID="708472399">
+									<PropertyList>
+										<Property Name="FadeInCurve" Type="int16" Value="7"/>
+										<Property Name="FadeTime" Type="Real64" Value="4"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="OST_AtmosphericLoopIntro" ID="{1EA9EAB2-C8A3-4E86-A9DF-2C2BD4F9C9F2}" WorkUnitID="{AB00411B-0292-45DC-9596-E7362E3F051C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_OST_CombatLoopIntro" ID="{D90E8BB4-FCC2-440D-8688-99FFAEC0009B}">
+							<ChildrenList>
+								<Action Name="" ID="{20045968-1A69-41EC-8576-4DCE40D25697}" ShortID="169702493">
+									<PropertyList>
+										<Property Name="FadeInCurve" Type="int16" Value="7"/>
+										<Property Name="FadeTime" Type="Real64" Value="4"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="OST_CombatLoopIntro" ID="{5455DA6C-F82C-445B-A822-D55499BD8674}" WorkUnitID="{AB00411B-0292-45DC-9596-E7362E3F051C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_OST_StartScreen" ID="{6C0EBE1C-FD35-4DC1-B396-92B32948ACF5}">
+							<ChildrenList>
+								<Action Name="" ID="{E910C8FB-E7FA-4210-B9DA-FDD681FD9471}" ShortID="39322512">
+									<PropertyList>
+										<Property Name="FadeInCurve" Type="int16" Value="7"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="OST_StartScreen" ID="{F3E56581-650D-43AB-B854-98AC53042C94}" WorkUnitID="{AB00411B-0292-45DC-9596-E7362E3F051C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_OST_AtmosphericLoopIntro" ID="{D86618A2-FB49-4E1C-AA5E-F4C4BB637091}">
+							<ChildrenList>
+								<Action Name="" ID="{C859AD92-13F4-4C44-A293-6CC7A43BCD90}" ShortID="747463823">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Delay" Type="Real64" Value="3.5"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="7"/>
+										<Property Name="FadeTime" Type="Real64" Value="3.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="OST_AtmosphericLoopIntro" ID="{1EA9EAB2-C8A3-4E86-A9DF-2C2BD4F9C9F2}" WorkUnitID="{AB00411B-0292-45DC-9596-E7362E3F051C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_OST_CombatLoopIntro" ID="{3E19B797-AF85-48DF-A1B7-EF1B8930190B}">
+							<ChildrenList>
+								<Action Name="" ID="{A5256197-216B-4473-93A8-DB4FBFB8EA67}" ShortID="400649434">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Delay" Type="Real64" Value="3.5"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="7"/>
+										<Property Name="FadeTime" Type="Real64" Value="3.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="OST_CombatLoopIntro" ID="{5455DA6C-F82C-445B-A822-D55499BD8674}" WorkUnitID="{AB00411B-0292-45DC-9596-E7362E3F051C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_OST_StartScreen" ID="{0806C5FB-0985-4642-9D54-69FF7FC85A76}">
+							<ChildrenList>
+								<Action Name="" ID="{5A9C5A6D-C917-471E-9DFF-C72CAB92D414}" ShortID="20328863">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Delay" Type="Real64" Value="3"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="7"/>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="OST_StartScreen" ID="{F3E56581-650D-43AB-B854-98AC53042C94}" WorkUnitID="{AB00411B-0292-45DC-9596-E7362E3F051C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Event Name="Stop_OST_Music" ID="{BA9B3668-C038-4CD3-AEF3-4B1A16A84335}">
+					<ChildrenList>
+						<Action Name="" ID="{8B1A7F9D-1EFB-4BCE-80BB-6380654DDFA3}" ShortID="320000152">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="OST_Music" ID="{CD51E627-CEE1-4B74-B058-4E8516091942}" WorkUnitID="{AB00411B-0292-45DC-9596-E7362E3F051C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

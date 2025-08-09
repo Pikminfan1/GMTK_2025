@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{41DEA658-3F58-4EDB-B442-D204A20E110B}" SchemaVersion="123">
+	<AudioObjects>
+		<WorkUnit Name="PlayerAbilities" ID="{41DEA658-3F58-4EDB-B442-D204A20E110B}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="Projectiles" ID="{6065F6C1-87B7-4E39-9753-FD553644DC16}" ShortID="516974531">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{46F0A7DB-81B0-4CE4-8B16-1CA55B3CD0B4}"/>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="PlayerThruster" ID="{39EC9E91-4C50-44A0-97DA-AFCD26CC4450}" WorkUnitID="{FC168AFC-D983-43A1-BDCD-400554B2EBDD}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F39A1741-8DB7-46AC-A142-982C9CBF40A1}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83CBC1BE-8734-4CAD-B3D4-57FD31BF0D43}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="plr_shoot_prj" ID="{2C4FC9CC-7475-446C-B3D4-B805F3222242}" ShortID="583324836">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{C0701E77-6063-4A4C-A7F4-0C1A2EB2B0B7}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="200"/>
+													<Property Name="Min" Type="Real64" Value="-200"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F39A1741-8DB7-46AC-A142-982C9CBF40A1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83CBC1BE-8734-4CAD-B3D4-57FD31BF0D43}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="gmtk_plr_shoot_layer1-001" ID="{FF10D922-6FE3-4FAD-BA23-C4ED061EE123}" ShortID="178421095">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F39A1741-8DB7-46AC-A142-982C9CBF40A1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83CBC1BE-8734-4CAD-B3D4-57FD31BF0D43}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="gmtk_plr_shoot_layer1-001" ID="{B9E8013B-04ED-4BF8-9A3D-947E61E8E024}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.02324082716456"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.0946233677414228"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>gmtk_plr_shoot_layer1-001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="631219823"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="gmtk_plr_shoot_layer1-001" ID="{B9E8013B-04ED-4BF8-9A3D-947E61E8E024}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="gmtk_plr_shoot_layer1-002" ID="{B2A30AB5-090F-4CE7-A1DC-686DE46D48E8}" ShortID="13535245">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F39A1741-8DB7-46AC-A142-982C9CBF40A1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83CBC1BE-8734-4CAD-B3D4-57FD31BF0D43}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="gmtk_plr_shoot_layer1-002" ID="{DE99F5C3-4B74-4DF5-8E32-226CC2429C78}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0411799201425516"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.0393894888320059"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>gmtk_plr_shoot_layer1-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="856773219"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="gmtk_plr_shoot_layer1-002" ID="{DE99F5C3-4B74-4DF5-8E32-226CC2429C78}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="gmtk_plr_shoot_layer1-003" ID="{3B119313-2E9D-4D7B-9D43-3B224709D4B8}" ShortID="315782618">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F39A1741-8DB7-46AC-A142-982C9CBF40A1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83CBC1BE-8734-4CAD-B3D4-57FD31BF0D43}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="gmtk_plr_shoot_layer1-003" ID="{4CEAFDC0-C85E-44DB-BD33-1C55073C5D9F}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.025343028254479"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.123094708664612"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>gmtk_plr_shoot_layer1-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="644997674"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="gmtk_plr_shoot_layer1-003" ID="{4CEAFDC0-C85E-44DB-BD33-1C55073C5D9F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="gmtk_plr_shoot_layer1-004" ID="{B6223EEF-3125-40A3-85D6-D1CE813A8818}" ShortID="603371728">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F39A1741-8DB7-46AC-A142-982C9CBF40A1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83CBC1BE-8734-4CAD-B3D4-57FD31BF0D43}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="gmtk_plr_shoot_layer1-004" ID="{531A45B5-83C8-4326-BA47-44CC841FEB24}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0502084421875877"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.0251042210937939"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>gmtk_plr_shoot_layer1-004.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="490845999"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="gmtk_plr_shoot_layer1-004" ID="{531A45B5-83C8-4326-BA47-44CC841FEB24}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="plr_shoot_prj_mech" ID="{18AC4EEB-3BF6-450D-AFBA-C7AAF5FBD25E}" ShortID="976467070">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{187BB9A2-008A-43E8-B443-6729E3E05AFC}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="200"/>
+													<Property Name="Min" Type="Real64" Value="-200"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-11</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F39A1741-8DB7-46AC-A142-982C9CBF40A1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83CBC1BE-8734-4CAD-B3D4-57FD31BF0D43}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="gmtk_plr_shoot_mech-001" ID="{2FE49937-5561-4B55-8112-E4B07B4498E2}" ShortID="289050380">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F39A1741-8DB7-46AC-A142-982C9CBF40A1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83CBC1BE-8734-4CAD-B3D4-57FD31BF0D43}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="gmtk_plr_shoot_mech-001" ID="{7A7FBD0D-6A49-4FE8-BA04-7A6692789310}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0356383619282766"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.0267287714462075"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>gmtk_plr_shoot_mech-001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="176524255"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="gmtk_plr_shoot_mech-001" ID="{7A7FBD0D-6A49-4FE8-BA04-7A6692789310}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="gmtk_plr_shoot_mech-002" ID="{938026B7-0B6C-4987-AA4F-6E723FE1277D}" ShortID="1006899210">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F39A1741-8DB7-46AC-A142-982C9CBF40A1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83CBC1BE-8734-4CAD-B3D4-57FD31BF0D43}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="gmtk_plr_shoot_mech-002" ID="{0B051736-E620-42D8-BAAB-8CB04CCAB9DC}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0369507915140376"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.0216608088185738"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>gmtk_plr_shoot_mech-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="515508284"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="gmtk_plr_shoot_mech-002" ID="{0B051736-E620-42D8-BAAB-8CB04CCAB9DC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="gmtk_plr_shoot_mech-003" ID="{A6E0BF67-290A-4A36-B39A-1FF5271D19A8}" ShortID="94876553">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F39A1741-8DB7-46AC-A142-982C9CBF40A1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83CBC1BE-8734-4CAD-B3D4-57FD31BF0D43}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="gmtk_plr_shoot_mech-003" ID="{8CFEAA36-2B61-43A1-B4F8-BC526851B05E}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.074945497812715"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.0669156230470669"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>gmtk_plr_shoot_mech-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="24516591"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="gmtk_plr_shoot_mech-003" ID="{8CFEAA36-2B61-43A1-B4F8-BC526851B05E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<Sound Name="player_flame_ability" ID="{A0FA263B-DBFF-476B-9D35-5713C51B3155}" ShortID="70260712">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{9455578B-23BB-48F3-AE93-0EF77A665CF6}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="300"/>
+													<Property Name="Min" Type="Real64" Value="-200"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F39A1741-8DB7-46AC-A142-982C9CBF40A1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83CBC1BE-8734-4CAD-B3D4-57FD31BF0D43}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Fire, Burst, Cinematic, Impact, Flamethrower 02 SND42829" ID="{E15DA7AD-EB9C-4234-8C04-6EAEEF8880C0}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="1.57841842665077"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.73367261165814"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Fire, Burst, Cinematic, Impact, Flamethrower 02 SND42829.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1067552734"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Fire, Burst, Cinematic, Impact, Flamethrower 02 SND42829" ID="{E15DA7AD-EB9C-4234-8C04-6EAEEF8880C0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="player_flame_sweetner" ID="{161C8DC7-29A1-41C3-8FDB-92EBCFB62CF1}" ShortID="988517194">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{262AC9FC-34CA-47AC-B2BB-8EAAAC55908C}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="200"/>
+													<Property Name="Min" Type="Real64" Value="-200"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F39A1741-8DB7-46AC-A142-982C9CBF40A1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83CBC1BE-8734-4CAD-B3D4-57FD31BF0D43}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Fire, Burst, Flamethrower, Small, Ignite, Spray, Short Bursts SND46296" ID="{16A23323-F7C6-4932-B76A-E6DC8F219784}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.594576885329638"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.960711072611573"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.347358075113631"/>
+										<Property Name="TrimEnd" Type="Real64" Value="2.05598422520887"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Fire, Burst, Flamethrower, Small, Ignite, Spray, Short Bursts SND46296.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="232334808"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Fire, Burst, Flamethrower, Small, Ignite, Spray, Short Bursts SND46296" ID="{16A23323-F7C6-4932-B76A-E6DC8F219784}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

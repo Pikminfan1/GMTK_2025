@@ -1,0 +1,46 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3310819157",
+    "Type": "Event",
+    "GUID": "{6C0EBE1C-FD35-4DC1-B396-92B32948ACF5}",
+    "Language": "SFX",
+    "Hash": "{2281D7E0-A15A-72A2-5018-4AED1F65E441}",
+    "ObjectPath": "Play_OST_StartScreen",
+    "ShortName": "Play_OST_StartScreen",
+    "Path": "Event/33/Play_OST_StartScreen.bnk",
+    "Media": [
+     {
+      "Id": "842999877",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "GMTK_MainTheme_StartingScreen_Mix2_105_FF.wav",
+      "Path": "Media/84/842999877.wem",
+      "CachePath": "8D/{8DC06ADA-1413-274B-1387-014C62022135}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3310819157",
+      "Name": "Play_OST_StartScreen",
+      "ObjectPath": "\\Events\\Default Work Unit\\OST\\Play_OST_StartScreen",
+      "GUID": "{6C0EBE1C-FD35-4DC1-B396-92B32948ACF5}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "842999877"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{62036D7C-11CD-46E6-631C-3000FFE06254}"
+ }
+}

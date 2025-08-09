@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{998E04B8-AFA3-4273-B0D0-F62E9D1DAAB6}" SchemaVersion="123">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{998E04B8-AFA3-4273-B0D0-F62E9D1DAAB6}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="SFX" ID="{847CA4B3-E728-436F-989E-247BF0C5F169}">
+					<ObjectInclusionList>
+						<ObjectRef Name="plr_shoot_prj" ID="{62309AB1-E2BF-436D-BAC2-B868AEBAA535}" WorkUnitID="{69ED55F9-37B4-4F00-BD1D-20C2D6958870}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="enemy_death_explosion" ID="{06B931D5-92DD-43D6-8879-1EAAFDE66E2F}" WorkUnitID="{0A87D9D8-E999-42E1-AE46-147B7A11FBA7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="payload_movement" ID="{11FA85D9-DBB6-4561-8916-C65E65D036E3}" WorkUnitID="{9D54EF85-8BB7-4D2B-9760-16921EE6FAFA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="enemy_hit_proj" ID="{6C1CA0B1-89D3-4595-893F-57647C334CD4}" WorkUnitID="{0A87D9D8-E999-42E1-AE46-147B7A11FBA7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_ambient_bed" ID="{84905C1E-50A4-45FB-A29B-5A98FB3B6466}" WorkUnitID="{45CE56D6-E0F8-4867-94FF-06AC07D497A5}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="plr_dash" ID="{AE0A6FF8-D5A8-46B1-AFA2-5C458C46165C}" WorkUnitID="{69ED55F9-37B4-4F00-BD1D-20C2D6958870}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="player_flame_ability" ID="{A0FA263B-DBFF-476B-9D35-5713C51B3155}" WorkUnitID="{41DEA658-3F58-4EDB-B442-D204A20E110B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="plr_locomotion_play" ID="{DC7063E5-B467-4998-B813-3D665BBD40D6}" WorkUnitID="{69ED55F9-37B4-4F00-BD1D-20C2D6958870}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="amb_alien_emitter_1" ID="{D679D0D3-3BF0-4B08-9C0E-DBBD6528DE52}" WorkUnitID="{45CE56D6-E0F8-4867-94FF-06AC07D497A5}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="amb_alien_emitter_2" ID="{A5FFA9F0-1779-4D2C-966D-767C984B7E34}" WorkUnitID="{45CE56D6-E0F8-4867-94FF-06AC07D497A5}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="amb_lake_loop" ID="{D739C4C7-9663-4F43-BA0D-AE9B8A585B62}" WorkUnitID="{45CE56D6-E0F8-4867-94FF-06AC07D497A5}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

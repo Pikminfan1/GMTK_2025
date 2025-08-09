@@ -1,0 +1,46 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "800528041",
+    "Type": "Event",
+    "GUID": "{F4799550-6C1C-4C0A-A905-B57678344C21}",
+    "Language": "SFX",
+    "Hash": "{D66B54CB-1860-FADE-568F-0A6A3E3F190C}",
+    "ObjectPath": "Play_OST_CombatLoop2",
+    "ShortName": "Play_OST_CombatLoop2",
+    "Path": "Event/80/Play_OST_CombatLoop2.bnk",
+    "Media": [
+     {
+      "Id": "646075123",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "OST_CombatLoopA3_MediasRes_V2.wav",
+      "Path": "Media/64/646075123.wem",
+      "CachePath": "CF/{CF3B4822-F3AE-E6B1-58AD-0BBC07341DA2}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "800528041",
+      "Name": "Play_OST_CombatLoop2",
+      "ObjectPath": "\\Events\\Default Work Unit\\OST\\Play_OST_CombatLoop2",
+      "GUID": "{F4799550-6C1C-4C0A-A905-B57678344C21}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "646075123"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{11D308D0-9E93-949A-69F5-9FA5C0436C6B}"
+ }
+}

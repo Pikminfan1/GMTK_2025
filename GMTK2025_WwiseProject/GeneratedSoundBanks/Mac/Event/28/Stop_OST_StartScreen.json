@@ -1,0 +1,33 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2823430035",
+    "Type": "Event",
+    "GUID": "{0806C5FB-0985-4642-9D54-69FF7FC85A76}",
+    "Language": "SFX",
+    "Hash": "{813A4E88-D1FD-85EE-8C72-B3E2472B60AA}",
+    "ObjectPath": "Stop_OST_StartScreen",
+    "ShortName": "Stop_OST_StartScreen",
+    "Path": "Event/28/Stop_OST_StartScreen.bnk",
+    "Events": [
+     {
+      "Id": "2823430035",
+      "Name": "Stop_OST_StartScreen",
+      "ObjectPath": "\\Events\\Default Work Unit\\OST\\Stop_OST_StartScreen",
+      "GUID": "{0806C5FB-0985-4642-9D54-69FF7FC85A76}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{F4069EF0-592F-59F7-BD00-4DFFFE7EB3D4}"
+ }
+}

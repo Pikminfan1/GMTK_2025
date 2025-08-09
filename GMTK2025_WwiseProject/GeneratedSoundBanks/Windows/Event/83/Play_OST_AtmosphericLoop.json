@@ -1,0 +1,46 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "834345272",
+    "Type": "Event",
+    "GUID": "{E50040DF-2F1F-4432-97DE-7D83391B53E6}",
+    "Language": "SFX",
+    "Hash": "{1A650C02-7398-9BDC-A927-70084DCFABE7}",
+    "ObjectPath": "Play_OST_AtmosphericLoop",
+    "ShortName": "Play_OST_AtmosphericLoop",
+    "Path": "Event/83/Play_OST_AtmosphericLoop.bnk",
+    "Media": [
+     {
+      "Id": "375761751",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "OST_AtmosphericLoop.wav",
+      "Path": "Media/37/375761751.wem",
+      "CachePath": "D4/{D42DC28E-C1BE-A524-C13D-6A68913A72C7}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "834345272",
+      "Name": "Play_OST_AtmosphericLoop",
+      "ObjectPath": "\\Events\\Default Work Unit\\OST\\Play_OST_AtmosphericLoop",
+      "GUID": "{E50040DF-2F1F-4432-97DE-7D83391B53E6}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "375761751"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{6EB52C0E-FFA8-EE9F-B0CE-763B2B64E2FC}"
+ }
+}

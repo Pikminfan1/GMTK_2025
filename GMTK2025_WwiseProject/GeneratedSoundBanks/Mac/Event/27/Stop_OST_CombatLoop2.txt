@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2751772503	Stop_OST_CombatLoop2			\Default Work Unit\Stop_OST_CombatLoop2	
+

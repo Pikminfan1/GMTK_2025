@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{07B30F76-16A0-40BE-80FA-92D75E670D09}" SchemaVersion="123">
+	<AudioObjects>
+		<WorkUnit Name="Payload" ID="{07B30F76-16A0-40BE-80FA-92D75E670D09}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="Payload" ID="{DBA8C7F8-0274-4DA4-9D4E-1C0973CBAF6A}" ShortID="317367013">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="MakeUpGain" Type="Real64">
+							<ValueList>
+								<Value>10</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Payload" ID="{50F7A177-4878-46EF-BE7A-56F83B7BE8D6}" WorkUnitID="{FC168AFC-D983-43A1-BDCD-400554B2EBDD}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F39A1741-8DB7-46AC-A142-982C9CBF40A1}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83CBC1BE-8734-4CAD-B3D4-57FD31BF0D43}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<BlendContainer Name="playload_movement_loop" ID="{135A03F0-747F-4D53-96BF-B216BAE2D045}" ShortID="491081929">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F39A1741-8DB7-46AC-A142-982C9CBF40A1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83CBC1BE-8734-4CAD-B3D4-57FD31BF0D43}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="atma_ship_locomotion_loop" ID="{2834112D-2147-4DA2-A28E-7055739D5775}" ShortID="227523949">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-9</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F39A1741-8DB7-46AC-A142-982C9CBF40A1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83CBC1BE-8734-4CAD-B3D4-57FD31BF0D43}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="atma_ship_locomotion_loop" ID="{7FA00AA1-5242-46AA-B09A-B7DA6912B9CD}">
+											<Language>SFX</Language>
+											<AudioFile>atma_ship_locomotion_loop.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1022090302"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="atma_ship_locomotion_loop" ID="{7FA00AA1-5242-46AA-B09A-B7DA6912B9CD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="gmtk_payload_movement_loop" ID="{473EB9DD-777B-4892-BBEC-F63D9E8FD74C}" ShortID="545239535">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-15</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F39A1741-8DB7-46AC-A142-982C9CBF40A1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83CBC1BE-8734-4CAD-B3D4-57FD31BF0D43}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="gmtk_payload_movement_loop" ID="{95B00ECC-1CBA-44C8-9E50-D9C9334DA206}">
+											<Language>SFX</Language>
+											<AudioFile>gmtk_payload_movement_loop.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="796962511"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="gmtk_payload_movement_loop" ID="{95B00ECC-1CBA-44C8-9E50-D9C9334DA206}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="gmtk_payload_movement_loop2" ID="{1A6E49AB-9DBE-4B5C-8EA0-0525BA320BEB}" ShortID="40932155">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F39A1741-8DB7-46AC-A142-982C9CBF40A1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83CBC1BE-8734-4CAD-B3D4-57FD31BF0D43}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="gmtk_payload_movement_loop2" ID="{EDC2DB51-2312-46C1-BFD5-C3E520F69E02}">
+											<Language>SFX</Language>
+											<AudioFile>gmtk_payload_movement_loop2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="437427805"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="gmtk_payload_movement_loop2" ID="{EDC2DB51-2312-46C1-BFD5-C3E520F69E02}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<BlendTrackList>
+								<BlendTrack Name="Loop1" ID="{3F8A7AD1-5A7F-42D4-AEC3-380375A7D5AD}" ShortID="450015425">
+									<PropertyList>
+										<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+									</PropertyList>
+									<BlendTrackAssocList>
+										<BlendTrackAssoc>
+											<ItemRef Name="atma_ship_locomotion_loop" ID="{2834112D-2147-4DA2-A28E-7055739D5775}"/>
+										</BlendTrackAssoc>
+									</BlendTrackAssocList>
+								</BlendTrack>
+							</BlendTrackList>
+						</BlendContainer>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

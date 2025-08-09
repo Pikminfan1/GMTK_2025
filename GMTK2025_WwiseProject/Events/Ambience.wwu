@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{45CE56D6-E0F8-4867-94FF-06AC07D497A5}" SchemaVersion="123">
+	<Events>
+		<WorkUnit Name="Ambience" ID="{45CE56D6-E0F8-4867-94FF-06AC07D497A5}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="play_ambient_bed" ID="{84905C1E-50A4-45FB-A29B-5A98FB3B6466}">
+					<ChildrenList>
+						<Action Name="" ID="{C7C4E0AB-9A77-4495-80F3-A6512B699FA5}" ShortID="474937654">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="amb_soft_winds_trees_rustle_loop" ID="{32478278-534B-43E4-B335-3F2DA090908E}" WorkUnitID="{73FC53C5-9B80-434F-BD2B-A397B5F0A66C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="amb_lake_loop" ID="{D739C4C7-9663-4F43-BA0D-AE9B8A585B62}">
+					<ChildrenList>
+						<Action Name="" ID="{E451902D-89A3-4426-80A0-54A1DC48DD6C}" ShortID="878577280">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="amb_lake_loop" ID="{DFB468A7-B108-4FBB-909D-22610CEDB352}" WorkUnitID="{73FC53C5-9B80-434F-BD2B-A397B5F0A66C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="amb_alien_emitter_1" ID="{D679D0D3-3BF0-4B08-9C0E-DBBD6528DE52}">
+					<ChildrenList>
+						<Action Name="" ID="{1C2A5776-249F-4D37-B7D9-6F2EF015D86A}" ShortID="726078581">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="alien_birds" ID="{B76A88A1-FC15-4245-8351-D6A7E1C204A0}" WorkUnitID="{73FC53C5-9B80-434F-BD2B-A397B5F0A66C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="amb_alien_emitter_2" ID="{A5FFA9F0-1779-4D2C-966D-767C984B7E34}">
+					<ChildrenList>
+						<Action Name="" ID="{D094F670-D89A-410B-A2B9-2098A1C53965}" ShortID="43034579">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="alien_fauna" ID="{3CB9D021-C45D-4214-94FD-628B53BA6B53}" WorkUnitID="{73FC53C5-9B80-434F-BD2B-A397B5F0A66C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

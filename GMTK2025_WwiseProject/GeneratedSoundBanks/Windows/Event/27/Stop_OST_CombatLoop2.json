@@ -1,0 +1,33 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2751772503",
+    "Type": "Event",
+    "GUID": "{772BC900-2ACC-417C-9149-FBB93238C12D}",
+    "Language": "SFX",
+    "Hash": "{907E85A5-C099-0A9E-5BBD-2613AA007BC2}",
+    "ObjectPath": "Stop_OST_CombatLoop2",
+    "ShortName": "Stop_OST_CombatLoop2",
+    "Path": "Event/27/Stop_OST_CombatLoop2.bnk",
+    "Events": [
+     {
+      "Id": "2751772503",
+      "Name": "Stop_OST_CombatLoop2",
+      "ObjectPath": "\\Events\\Default Work Unit\\OST\\Stop_OST_CombatLoop2",
+      "GUID": "{772BC900-2ACC-417C-9149-FBB93238C12D}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{C0EEDC87-8576-B248-7A72-57C71F1D85BD}"
+ }
+}

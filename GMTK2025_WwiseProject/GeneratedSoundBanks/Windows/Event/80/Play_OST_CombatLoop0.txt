@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	800528043	Play_OST_CombatLoop0			\Default Work Unit\OST\Play_OST_CombatLoop0	
+

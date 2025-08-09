@@ -1,0 +1,60 @@
+Event	ID	Name			Wwise Object Path	Notes
+	358910055	payload_movement			\Payload\payload_movement	
+	817315634	plr_flame_ability			\Player\plr_flame_ability	
+	824853288	plr_locomotion_play			\Player\plr_locomotion_play	
+	1648997636	amb_lake_loop			\Ambience\amb_lake_loop	
+	1951581737	enemy_hit_proj			\Enemies\enemy_hit_proj	
+	2476573496	plr_dash			\Player\plr_dash	
+	3088122738	play_ambient_bed			\Ambience\play_ambient_bed	
+	3316697056	amb_alien_emitter_1			\Ambience\amb_alien_emitter_1	
+	3316697059	amb_alien_emitter_2			\Ambience\amb_alien_emitter_2	
+	3655106032	plr_shoot_prj			\Player\plr_shoot_prj	
+	4102527636	enemy_death_explosion			\Enemies\enemy_death_explosion	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1086842483	MoveSpeed			\Default Work Unit\MoveSpeed	
+
+Effect plug-ins	ID	Name	Type				Notes
+	2998002419	Boost_3dB_10KHz	Wwise Parametric EQ			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	1220978	alien_cave_amb_creature5	D:\GMTK2025\GMTK2025_WwiseProject\.cache\59\{5918DC00-6D48-C6C3-9347-D8287C076AA1}.wem		\Actor-Mixer Hierarchy\Ambience\AmbienceEmitters\alien_fauna\alien_cave_amb_creature5		715836
+	16119968	gmtk_enemy_death_explosion_01	D:\GMTK2025\GMTK2025_WwiseProject\.cache\12\{120AC8D0-74E1-863C-2767-B1F02C1A86AC}.wem		\Actor-Mixer Hierarchy\Enemies\Enemy\enemy_death_explosion\gmtk_enemy_death_explosion_01		436768
+	22687751	alien_cave_amb_bird1	D:\GMTK2025\GMTK2025_WwiseProject\.cache\63\{63E40C7E-2842-D148-30A0-FDA784B5C593}.wem		\Actor-Mixer Hierarchy\Ambience\AmbienceEmitters\alien_birds\alien_cave_amb_bird1		527112
+	24516591	gmtk_plr_shoot_mech-003	D:\GMTK2025\GMTK2025_WwiseProject\.cache\3A\{3ADC6B81-6B35-3BA3-14F5-21E73AB5C040}.wem		\Actor-Mixer Hierarchy\PlayerAbilities\Projectiles\plr_shoot_prj_mech\gmtk_plr_shoot_mech-003		273240
+	29422563	alien_cave_amb_creature3	D:\GMTK2025\GMTK2025_WwiseProject\.cache\F4\{F420EA43-732C-4484-FB80-AB1A7FB42165}.wem		\Actor-Mixer Hierarchy\Ambience\AmbienceEmitters\alien_fauna\alien_cave_amb_creature3		576096
+	54230769	atma_player_ship_dmg_hit_draft4	D:\GMTK2025\GMTK2025_WwiseProject\.cache\0D\{0DA7A1AB-FB86-E17C-CE0B-3F8B4F7DAC0C}.wem		\Actor-Mixer Hierarchy\Enemies\Enemy\enemy_plr_proj_hit\atma_player_ship_dmg_hit_draft4		128092
+	78126206	alien_cave_amb_bird6	D:\GMTK2025\GMTK2025_WwiseProject\.cache\A8\{A8388F98-83EA-4123-FC12-DA937F2B9932}.wem		\Actor-Mixer Hierarchy\Ambience\AmbienceEmitters\alien_birds\alien_cave_amb_bird6		653764
+	80960994	gmtk_enemy_death_explosion_02	D:\GMTK2025\GMTK2025_WwiseProject\.cache\06\{061341CF-3326-E75A-281E-C31AA074268F}.wem		\Actor-Mixer Hierarchy\Enemies\Enemy\enemy_death_explosion\gmtk_enemy_death_explosion_02		354524
+	176524255	gmtk_plr_shoot_mech-001	D:\GMTK2025\GMTK2025_WwiseProject\.cache\52\{524337ED-755A-9E8F-4B57-CD1D3FC0B9D9}.wem		\Actor-Mixer Hierarchy\PlayerAbilities\Projectiles\plr_shoot_prj_mech\gmtk_plr_shoot_mech-001		312288
+	224476645	gmtk_plr_doidge_thrusters_boost_oneshot-002	D:\GMTK2025\GMTK2025_WwiseProject\.cache\9A\{9AF70FC8-2B83-8521-EF18-BC040C166FFB}.wem		\Actor-Mixer Hierarchy\Player\Player\plr_dash_thrust\gmtk_plr_doidge_thrusters_boost_oneshot-002		421204
+	225205609	gmtk_plr_doidge_thrusters_boost_oneshot-003	D:\GMTK2025\GMTK2025_WwiseProject\.cache\DE\{DE80EA57-29FD-9507-A7ED-5E4221FCCB0A}.wem		\Actor-Mixer Hierarchy\Player\Player\plr_dash_thrust\gmtk_plr_doidge_thrusters_boost_oneshot-003		360152
+	233137720	alien_cave_amb_bird3	D:\GMTK2025\GMTK2025_WwiseProject\.cache\26\{2659ACC9-FB7A-6FD3-BCDD-295B397B1C28}.wem		\Actor-Mixer Hierarchy\Ambience\AmbienceEmitters\alien_birds\alien_cave_amb_bird3		599448
+	262150355	alien_cave_amb_bird4	D:\GMTK2025\GMTK2025_WwiseProject\.cache\6F\{6F83FF5B-36B1-9D85-1657-5F12CC504980}.wem		\Actor-Mixer Hierarchy\Ambience\AmbienceEmitters\alien_birds\alien_cave_amb_bird4		739112
+	271049803	gmtk_enemy_death_explosion_03	D:\GMTK2025\GMTK2025_WwiseProject\.cache\16\{1630A19D-DBD7-E4A5-5AB4-BD3CF9F35391}.wem		\Actor-Mixer Hierarchy\Enemies\Enemy\enemy_death_explosion\gmtk_enemy_death_explosion_03		354524
+	348997501	gmtk_plr_doidge_thrusters_boost_oneshot-005	D:\GMTK2025\GMTK2025_WwiseProject\.cache\73\{736C932B-7E9C-5F12-BDC9-071125B68700}.wem		\Actor-Mixer Hierarchy\Player\Player\plr_dash_thrust\gmtk_plr_doidge_thrusters_boost_oneshot-005		403580
+	382149285	atma_player_ship_dmg_hit_draft2	D:\GMTK2025\GMTK2025_WwiseProject\.cache\63\{63C14CB1-71C0-DA4F-3081-9420AD120AC8}.wem		\Actor-Mixer Hierarchy\Enemies\Enemy\enemy_plr_proj_hit\atma_player_ship_dmg_hit_draft2		127904
+	437427805	gmtk_payload_movement_loop2	D:\GMTK2025\GMTK2025_WwiseProject\.cache\F5\{F5498CA8-DFAD-4264-E9F1-C548034E6151}.wem		\Actor-Mixer Hierarchy\Payload\Payload\playload_movement_loop\gmtk_payload_movement_loop2		10845312
+	446073037	engine_int_loop_idle	D:\GMTK2025\GMTK2025_WwiseProject\.cache\83\{831B3B2E-D297-75E4-B399-72493133E1F8}.wem		\Actor-Mixer Hierarchy\Player\Player\plr_thruster_loop\engine_int_loop_idle		5760096
+	490845999	gmtk_plr_shoot_layer1-004	D:\GMTK2025\GMTK2025_WwiseProject\.cache\3A\{3AAD4CDB-22BB-56D0-5E6A-DAD7B7517B0C}.wem		\Actor-Mixer Hierarchy\PlayerAbilities\Projectiles\plr_shoot_prj\gmtk_plr_shoot_layer1-004		330568
+	495572076	alien_cave_amb_animal1	D:\GMTK2025\GMTK2025_WwiseProject\.cache\A4\{A446E6EB-108E-424A-B8E3-91570BD6EEA2}.wem		\Actor-Mixer Hierarchy\Ambience\AmbienceEmitters\alien_fauna\alien_cave_amb_animal1		527112
+	515508284	gmtk_plr_shoot_mech-002	D:\GMTK2025\GMTK2025_WwiseProject\.cache\4E\{4E434A70-FAA1-B3EA-231D-0BD2A6E63A0F}.wem		\Actor-Mixer Hierarchy\PlayerAbilities\Projectiles\plr_shoot_prj_mech\gmtk_plr_shoot_mech-002		268220
+	530250479	gmtk_plr_doidge_thrusters_boost_oneshot-004	D:\GMTK2025\GMTK2025_WwiseProject\.cache\07\{07EEB2FA-171B-1136-1014-81263E5F3D74}.wem		\Actor-Mixer Hierarchy\Player\Player\plr_dash_thrust\gmtk_plr_doidge_thrusters_boost_oneshot-004		350708
+	581783353	gmtk25_plr_locomtoion_draft2_loop	D:\GMTK2025\GMTK2025_WwiseProject\.cache\2E\{2E4FEA86-85BE-2316-EB29-3E359DFCCCB7}.wem		\Actor-Mixer Hierarchy\Player\Player\plr_thruster_loop\gmtk25_plr_locomtoion_draft2_loop		7162092
+	614325876	alien_cave_amb_bird2	D:\GMTK2025\GMTK2025_WwiseProject\.cache\1A\{1A96E75D-F367-C913-B4E1-ACDCF22575D6}.wem		\Actor-Mixer Hierarchy\Ambience\AmbienceEmitters\alien_birds\alien_cave_amb_bird2		614968
+	623396599	gmtk_plr_doidge_thrusters_boost_oneshot-001	D:\GMTK2025\GMTK2025_WwiseProject\.cache\1C\{1CDCE717-2398-ADB4-579A-A4373879FE75}.wem		\Actor-Mixer Hierarchy\Player\Player\plr_dash_thrust\gmtk_plr_doidge_thrusters_boost_oneshot-001		411412
+	631219823	gmtk_plr_shoot_layer1-001	D:\GMTK2025\GMTK2025_WwiseProject\.cache\3D\{3D0E1FCC-9A0C-7715-BE16-90469A5EDF1E}.wem		\Actor-Mixer Hierarchy\PlayerAbilities\Projectiles\plr_shoot_prj\gmtk_plr_shoot_layer1-001		336676
+	635156320	alien_cave_amb_bird5	D:\GMTK2025\GMTK2025_WwiseProject\.cache\BC\{BC5328E5-4DA6-DA30-9C9F-11AA9B1F2585}.wem		\Actor-Mixer Hierarchy\Ambience\AmbienceEmitters\alien_birds\alien_cave_amb_bird5		657644
+	644997674	gmtk_plr_shoot_layer1-003	D:\GMTK2025\GMTK2025_WwiseProject\.cache\BD\{BD927BBF-8E87-8773-B072-A817C0FB7FDA}.wem		\Actor-Mixer Hierarchy\PlayerAbilities\Projectiles\plr_shoot_prj\gmtk_plr_shoot_layer1-003		363296
+	649073491	alien_cave_amb_animal3	D:\GMTK2025\GMTK2025_WwiseProject\.cache\80\{80F1B99A-D381-7B73-0BCD-333017DE5881}.wem		\Actor-Mixer Hierarchy\Ambience\AmbienceEmitters\alien_fauna\alien_cave_amb_animal3		496656
+	677193167	alien_cave_amb_creature2	D:\GMTK2025\GMTK2025_WwiseProject\.cache\1A\{1A8A1BD2-6DEE-01F8-B9E1-20A1E7C87A54}.wem		\Actor-Mixer Hierarchy\Ambience\AmbienceEmitters\alien_fauna\alien_cave_amb_creature2		576096
+	704189844	amb_soft_winds_trees_rustle_loop	D:\GMTK2025\GMTK2025_WwiseProject\.cache\21\{2194ED8D-F041-2619-7113-0820094523DF}.wem		\Actor-Mixer Hierarchy\Ambience\AmbientBed\amb_soft_winds_trees_rustle_loop		7913420
+	796962511	gmtk_payload_movement_loop	D:\GMTK2025\GMTK2025_WwiseProject\.cache\04\{049E7161-3ECF-6FEC-955A-043AB5C46866}.wem		\Actor-Mixer Hierarchy\Payload\Payload\playload_movement_loop\gmtk_payload_movement_loop		10845312
+	828211926	alien_cave_amb_creature4	D:\GMTK2025\GMTK2025_WwiseProject\.cache\4C\{4C6B0D3B-64B5-A65A-B999-ADABB09417C5}.wem		\Actor-Mixer Hierarchy\Ambience\AmbienceEmitters\alien_fauna\alien_cave_amb_creature4		723596
+	888552661	amb_lake_loop	D:\GMTK2025\GMTK2025_WwiseProject\.cache\58\{58EF7230-F412-DCCD-C386-4CA6F332DCAC}.wem		\Actor-Mixer Hierarchy\Ambience\AmbientBed\amb_lake_loop		14852428
+	920275894	alien_cave_amb_creature1	D:\GMTK2025\GMTK2025_WwiseProject\.cache\29\{2976472A-BEBC-8492-9C86-38A3BFC0DED2}.wem		\Actor-Mixer Hierarchy\Ambience\AmbienceEmitters\alien_fauna\alien_cave_amb_creature1		525736
+	1019933209	iph_dash_draft5	D:\GMTK2025\GMTK2025_WwiseProject\.cache\1B\{1B6CAE9B-C17A-FD4E-48A4-58E61BFDDC64}.wem		\Actor-Mixer Hierarchy\Player\Player\iph_dash_draft5		284660
+	1056704886	atma_player_ship_dmg_hit_draft3	D:\GMTK2025\GMTK2025_WwiseProject\.cache\16\{16C99C26-0FF6-7F67-AC07-55247244F62D}.wem		\Actor-Mixer Hierarchy\Enemies\Enemy\enemy_plr_proj_hit\atma_player_ship_dmg_hit_draft3		176020
+	1060744356	alien_cave_amb_animal2	D:\GMTK2025\GMTK2025_WwiseProject\.cache\D2\{D2FA5B2A-21E4-CD8D-3A63-ACFE1D275C1B}.wem		\Actor-Mixer Hierarchy\Ambience\AmbienceEmitters\alien_fauna\alien_cave_amb_animal2		496656
+	1067552734	player_flame_ability	D:\GMTK2025\GMTK2025_WwiseProject\.cache\D2\{D2419810-6E3C-8F2A-C91F-3789BFD7B075}.wem		\Actor-Mixer Hierarchy\PlayerAbilities\Projectiles\player_flame_ability		332960
+

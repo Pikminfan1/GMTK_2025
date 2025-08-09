@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{69ED55F9-37B4-4F00-BD1D-20C2D6958870}" SchemaVersion="123">
+	<Events>
+		<WorkUnit Name="Player" ID="{69ED55F9-37B4-4F00-BD1D-20C2D6958870}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="plr_locomotion_play" ID="{DC7063E5-B467-4998-B813-3D665BBD40D6}">
+					<ChildrenList>
+						<Action Name="" ID="{0FBC637C-07E5-4E38-B95E-89C46364A08B}" ShortID="156798673">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="plr_thruster_loop" ID="{F28B623C-196F-4C71-B946-41034F25C1D5}" WorkUnitID="{22B47AE5-5512-46D5-B1B8-F661224CBA2A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="plr_dash" ID="{AE0A6FF8-D5A8-46B1-AFA2-5C458C46165C}">
+					<ChildrenList>
+						<Action Name="" ID="{8B503B13-F62A-42CB-88D5-E9839A56770C}" ShortID="1055966059">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.05"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="iph_dash_draft5" ID="{B637FB6D-B5ED-4CC9-917E-19FEC543B9B2}" WorkUnitID="{22B47AE5-5512-46D5-B1B8-F661224CBA2A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{6284446A-9134-4CAF-BACC-E2D9BD332ABA}" ShortID="661036150">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="plr_dash_thrust" ID="{7BB26229-08B7-4EB0-8850-8F13E6053859}" WorkUnitID="{22B47AE5-5512-46D5-B1B8-F661224CBA2A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="plr_shoot_prj" ID="{62309AB1-E2BF-436D-BAC2-B868AEBAA535}">
+					<ChildrenList>
+						<Action Name="" ID="{BA7492AF-C79E-4766-81FA-55BB244671C6}" ShortID="146256671">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="plr_shoot_prj" ID="{2C4FC9CC-7475-446C-B3D4-B805F3222242}" WorkUnitID="{41DEA658-3F58-4EDB-B442-D204A20E110B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{257658F7-7F5A-4299-82A2-B857F6684AB5}" ShortID="381478560">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="plr_shoot_prj_mech" ID="{18AC4EEB-3BF6-450D-AFBA-C7AAF5FBD25E}" WorkUnitID="{41DEA658-3F58-4EDB-B442-D204A20E110B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="plr_flame_ability" ID="{DE57EC22-B4BF-4C0B-8231-3FE6F388A76C}">
+					<ChildrenList>
+						<Action Name="" ID="{BDA304AC-E261-477F-838B-D87820A99C58}" ShortID="82456588">
+							<PropertyList>
+								<Property Name="FadeInCurve" Type="int16" Value="0"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="player_flame_ability" ID="{A0FA263B-DBFF-476B-9D35-5713C51B3155}" WorkUnitID="{41DEA658-3F58-4EDB-B442-D204A20E110B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{D65330A8-D2D6-4D15-B20D-1EE9B206B13C}" ShortID="637816966">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="player_flame_sweetner" ID="{161C8DC7-29A1-41C3-8FDB-92EBCFB62CF1}" WorkUnitID="{41DEA658-3F58-4EDB-B442-D204A20E110B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

@@ -1,0 +1,33 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2087591051",
+    "Type": "Event",
+    "GUID": "{3E19B797-AF85-48DF-A1B7-EF1B8930190B}",
+    "Language": "SFX",
+    "Hash": "{AF93BA24-5FA0-D879-BA16-638B31FED7DA}",
+    "ObjectPath": "Stop_OST_CombatLoopIntro",
+    "ShortName": "Stop_OST_CombatLoopIntro",
+    "Path": "Event/20/Stop_OST_CombatLoopIntro.bnk",
+    "Events": [
+     {
+      "Id": "2087591051",
+      "Name": "Stop_OST_CombatLoopIntro",
+      "ObjectPath": "\\Events\\Default Work Unit\\OST\\Stop_OST_CombatLoopIntro",
+      "GUID": "{3E19B797-AF85-48DF-A1B7-EF1B8930190B}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{DC944C48-1664-600C-A3DF-E189CDA60E33}"
+ }
+}

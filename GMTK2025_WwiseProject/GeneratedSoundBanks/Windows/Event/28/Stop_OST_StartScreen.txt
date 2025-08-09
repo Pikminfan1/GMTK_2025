@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2823430035	Stop_OST_StartScreen			\Default Work Unit\Stop_OST_StartScreen	
+

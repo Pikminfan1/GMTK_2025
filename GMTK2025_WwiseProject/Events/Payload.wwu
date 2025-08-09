@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9D54EF85-8BB7-4D2B-9760-16921EE6FAFA}" SchemaVersion="123">
+	<Events>
+		<WorkUnit Name="Payload" ID="{9D54EF85-8BB7-4D2B-9760-16921EE6FAFA}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="payload_movement" ID="{11FA85D9-DBB6-4561-8916-C65E65D036E3}">
+					<ChildrenList>
+						<Action Name="" ID="{00AB30F3-9B53-46E9-BFC4-4C8B8C36CA70}" ShortID="797486086">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="playload_movement_loop" ID="{135A03F0-747F-4D53-96BF-B216BAE2D045}" WorkUnitID="{07B30F76-16A0-40BE-80FA-92D75E670D09}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
